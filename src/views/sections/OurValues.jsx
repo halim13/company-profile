@@ -1,4 +1,6 @@
 import React from 'react'
+const coreValue = new URL('../../assets/img/core-value-bg.png', import.meta.url).href
+
 
 export default function OurValues() {
     return (
@@ -6,7 +8,7 @@ export default function OurValues() {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6">
-                        <img src="/src/assets/img/core-value-bg.png" className="img-fluid" alt="" />
+                        <img src={coreValue} className="img-fluid" alt="" />
                     </div>
                     <div className="col-lg-6 pt-4 pt-lg-0">
                         <h3>Our Core Values</h3>

@@ -1,4 +1,7 @@
 import React from 'react'
+const speedImprovement = new URL('../../assets/img/icons/speed-improvement.png', import.meta.url).href
+const accesories = new URL('../../assets/img/icons/accesories.png', import.meta.url).href
+const exhaust = new URL('../../assets/img/icons/exhaust.png', import.meta.url).href
 
 export default function ThePerks() {
     return (
@@ -13,7 +16,7 @@ export default function ThePerks() {
 
                         <div className="swiper-slide">
                             <div className="testimonial-item">
-                                <img src="/src/assets/img/icons/speed-improvement.png" className="testimonial-img" alt="" />
+                                <img src={speedImprovement} className="testimonial-img" alt="" />
                                 <h3>Speed Improvement</h3>
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis euismod libero vel leo auctor, in venenatis nulla consequat. Sed commodo nunc sit amet congue aliquam.
@@ -22,7 +25,7 @@ export default function ThePerks() {
                         </div>
                         <div className="swiper-slide">
                             <div className="testimonial-item">
-                                <img src="/src/assets/img/icons/accesories.png" className="testimonial-img" alt="" />
+                                <img src={accesories} className="testimonial-img" alt="" />
                                 <h3>Accesories</h3>
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis euismod libero vel leo auctor, in venenatis nulla consequat. Sed commodo nunc sit amet congue aliquam.
@@ -31,7 +34,7 @@ export default function ThePerks() {
                         </div>
                         <div className="swiper-slide">
                             <div className="testimonial-item">
-                                <img src="/src/assets/img/icons/exhaust.png" className="testimonial-img" alt="" />
+                                <img src={exhaust} className="testimonial-img" alt="" />
                                 <h3>Exhaust</h3>
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis euismod libero vel leo auctor, in venenatis nulla consequat. Sed commodo nunc sit amet congue aliquam.
