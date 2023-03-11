@@ -1,4 +1,6 @@
 import React from 'react'
+const logo = new URL('../../assets/img/logo.png', import.meta.url).href
+
 
 export default function Header() {
     return (
@@ -6,7 +8,7 @@ export default function Header() {
             <div className="container d-flex align-items-center">
 
                 <div className="logo me-auto">
-                    <a href="index.html"><img src="/src/assets/img/logo.png" alt="" className="img-fluid" /></a>
+                    <a href="index.html"><img src={logo} alt="" className="img-fluid" /></a>
                 </div>
 
                 <nav id="navbar" className="navbar order-last order-lg-0">
