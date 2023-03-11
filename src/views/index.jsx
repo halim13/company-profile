@@ -3,7 +3,7 @@ import Contact from './sections/Contact'
 import Header from './sections/Header'
 import Hero from './sections/Hero'
 import OurValues from './sections/OurValues'
-import ThePerks from './sections/ThePerks'
+import ThePerks from './sections/ThePerks2'
 import WhatWeDo from './sections/WhatWeDo'
 
 export default function index() {
