@@ -6,7 +6,7 @@ import inject from "@rollup/plugin-inject";
 export default defineConfig({
   plugins: [
     inject({
-      $: 'jquery',
+      $: '$',
       "window.jQuery": "jquery",
       jQuery: 'jquery',
     }),
